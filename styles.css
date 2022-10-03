@@ -70,15 +70,16 @@ a:any-link {
 
 .primary-nav li{
     font-size: 1.7rem;
-  
-}
-
-a:hover,
-a:focus-visible {
-    font-weight: bolder;
-    transform: scale(120%);
     
 }
+
+li:hover,
+li:focus-visible {
+    font-weight: bolder;
+    transform: scale(120%);
+
+}
+
 
 a:active {
     color: rgb(204, 14, 14);
