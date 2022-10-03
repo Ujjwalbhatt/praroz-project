@@ -17,7 +17,7 @@ html {
 
     margin: 0 auto;
 
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.50%)100%), url(bgimg.jpg);
+    background: linear-gradient(to bottom, rgba(231, 185, 185, 0.5)50%, rgba(85, 26, 26, 0.005)100%);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -27,9 +27,11 @@ html {
 .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(28, 22, 22);
     align-items: center;
     padding: 1rem 2rem;
-    height: 6rem;
+    height: 4.5rem;
+    max-width: 1440px;
     position: fixed;
     top: 0;
     left: 0;
@@ -42,10 +44,10 @@ html {
 
 
 .icon {
-    color: rgb(254, 254, 254);
-    border: 6px double white;
+    color: rgb(255, 255, 255);
+    border: 6px double rgb(253, 249, 249);
     text-decoration: line-through;
-    background-color: rgba(67, 171, 171, 0.207);
+    background-color: rgba(99, 141, 141, 0.207);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
@@ -64,18 +66,18 @@ html {
 }
 
 a:any-link {
-    color: white;
+    color: rgb(255, 252, 252);
     text-decoration: none;
 }
 
 .primary-nav li{
     font-size: 1.7rem;
-    
+    font-weight: bolder;
 }
 
 li:hover,
 li:focus-visible {
-    font-weight: bolder;
+    
     transform: scale(120%);
 
 }
