@@ -24,14 +24,18 @@ html {
     
 }
 /* || Nav-bar */
-.navbar {
+.navbar{
+    background-color: black;
+    width: 100%;
+}
+.navbar__main {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(28, 22, 22);
+    background-color: #000;
     align-items: center;
     padding: 1rem 2rem;
     height: 4.5rem;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     position: fixed;
     top: 0;
     left: 0;
