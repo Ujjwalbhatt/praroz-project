@@ -76,7 +76,8 @@ a:any-link {
 a:hover,
 a:focus-visible {
     font-weight: bolder;
-    font-size: 1.8rem;
+    transform: scale(120%);
+    
 }
 
 a:active {
