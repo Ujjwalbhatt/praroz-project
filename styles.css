@@ -27,25 +27,21 @@ html {
 .navbar{
     background-color: black;
     width: 100%;
+    position: fixed;
 }
+
 .navbar__main {
     display: flex;
     justify-content: space-between;
     background-color: #000;
     align-items: center;
-    padding: 1rem 2rem;
     height: 4.5rem;
     max-width: 1440px;
-    position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
 }
-    
-
-   
-
 
 .icon {
     color: rgb(255, 255, 255);
@@ -58,7 +54,6 @@ html {
     margin-left: 1rem;
     
 }
-
 
 .primary-nav {
     display: flex;
@@ -85,7 +80,6 @@ li:focus-visible {
     transform: scale(120%);
 
 }
-
 
 a:active {
     color: rgb(204, 14, 14);
