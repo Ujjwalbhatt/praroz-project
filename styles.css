@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +8,8 @@
 
 html {
     scroll-behavior: smooth;
-    
-    font-family: "Nunito", sans-serif;
+
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -17,70 +17,102 @@ html {
 
     margin: 0 auto;
 
-    background: linear-gradient(to bottom, rgba(231, 185, 185, 0.5)50%, rgba(85, 26, 26, 0.005)100%);
+    background: #fff;
     background-position: center;
     background-size: cover;
-    height: 109vh;
-    
+    height: 200vh;
+   
+
 }
+
 /* || Nav-bar */
-.navbar{
-    background-color: black;
+.navbar {
+    background-color: #fff;
     width: 100%;
     position: fixed;
+    z-index: 1;
+  
 }
 
 .navbar__main {
     display: flex;
     justify-content: space-between;
-    background-color: #000;
+
     align-items: center;
     height: 4.5rem;
     max-width: 1440px;
     top: 0;
     margin-left: auto;
     margin-right: auto;
-    z-index: 1;
 }
 
-.icon {
-    color: rgb(255, 255, 255);
-    border: 6px double rgb(253, 249, 249);
-    text-decoration: line-through;
-    background-color: rgba(99, 141, 141, 0.207);
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+.icon .logo {
+    color: #000;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 2rem;
+    box-sizing: border-box;
+    width: 190px;
+    height: 45px;
+    text-align: center;
     margin-left: 1rem;
-    
+}
+span{
+    color: #000;
+
+}
+.button__free-trial {
+    width: 144px;
+    height: 56px;
+    background: #1D2130;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 }
 
 .primary-nav {
     display: flex;
     padding: 1rem;
     height: 4em;
+   
     justify-content: space-evenly;
     gap: 7rem;
     list-style-type: none;
 }
 
 a:any-link {
-    color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-.primary-nav li{
+.primary-nav li {
     font-size: 1.7rem;
-    font-weight: bolder;
+    
 }
 
 li:hover,
 li:focus-visible {
-    
+
     transform: scale(120%);
 
 }
 
 a:active {
     color: rgb(204, 14, 14);
+}
+
+/* || header */
+.header {
+    position: absolute;
+    width: 1024px;
+    height: 1060.57px;
+    left: 208px;
+    top: 167px;
+    position: absolute;
+    width: 524px;
+    height: 496px;
+    right: 566px;
+    top: 313px;
+    background: radial-gradient(483.9% 2719.65% at -49.5% -250%, #D798E1 17.55%, #9BFFA5 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%);
+    filter: blur(200px);
 }
