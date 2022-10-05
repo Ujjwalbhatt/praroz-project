@@ -129,7 +129,8 @@ a:active {
     width: 100%;
     max-width: 64rem;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 2rem;
+    
 }
 
 .medium__Container-gradient {
@@ -156,6 +157,8 @@ a:active {
     width: 100%;
     max-width: 48rem;
     text-align: center;
+    margin-right: auto;
+margin-left: auto;
 }
 
 h1 {
